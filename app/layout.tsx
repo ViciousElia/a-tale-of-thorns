@@ -19,13 +19,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/svg+xml" href="/vectors/rose2.svg"/>
       </head>
-      <body className={`antialiased min-h-screen flex flex-col bg-mid-900 dark:bg-mid-100`}>
+      <body className={`antialiased min-h-screen flex flex-col bg-mid-900 dark:bg-mid-100 text-dark dark:text-light`}>
         <ThemeProvider attribute="data-theme">
           <Header />
-          <main className="flex-grow flex">
-            <div className="container mx-auto px-4 flex flex-col gap-8 bg-light dark:bg-dark min-h-full">
-              {children}    
-            </div>
+          <main className="flex-grow flex flex-col">
+            {children}    
           </main>            
           <Footer />
         </ThemeProvider>

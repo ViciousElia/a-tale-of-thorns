@@ -69,3 +69,25 @@
 body {
   font-family: serif;
 }
+
+h1 {
+  font-size: xx-large;
+  font-weight: 800;
+}
+h2 {
+  font-size: x-large;
+  font-weight: 600;
+}
+h3 {
+  font-size: x-large;
+}
+h4 {
+  font-size: large;
+  font-weight: 600;
+}
+h5 {
+  font-size: large;
+}
+h6 {
+  font-weight: 600;
+}

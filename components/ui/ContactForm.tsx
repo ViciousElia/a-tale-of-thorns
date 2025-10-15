@@ -35,7 +35,7 @@ export default function ContactForm() {
       <input name="email" type="email" placeholder="Email" required className="p-2 border-b-1 border-r-1 border-mid-500" />
       <input name="subject" placeholder="Subject" required className="p-2 border-b-1 border-r-1 border-mid-500" />
       <textarea name="body" placeholder="Message" required className="h-50 p-2 border-b-1 border-r-1 border-mid-500" />
-      <button type="submit" disabled={isLoading} className="p-2 border-b-1 border-r-1 border-mid-500" >
+      <button type="submit" disabled={isLoading} className="p-2 border-b-1 border-r-1 border-mid-500 bg-gray-500 text-mid-50" >
         {isLoading ? 'Sending...' : 'Send Message'}
       </button>
     </form>
