@@ -4,7 +4,7 @@
         "title"   : "Chapter Title",
         "book"    : "Book Title",
         "arc"     : "Arc Title",
-        "content" : "narratives/{arcname}/{bookname}/chapter 0.md",
+        "content" : "narratives/{arcname}/{bookname}/chapter-0.md",
         "date"    : "9999-12-31",
         "place"   : "0-0-0"
     },
@@ -13,7 +13,7 @@
         "title"   : "A Long Walk to the Sea",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 20.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-20.md",
         "date"    : "2026-05-31",
         "place"   : "1-3-21"
     },
@@ -22,7 +22,7 @@
         "title"   : "Hallow and Spire",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 19.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-19.md",
         "date"    : "2026-05-25",
         "place"   : "1-3-20"
     },
@@ -31,7 +31,7 @@
         "title"   : "Omnia Cantare",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 18.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-18.md",
         "date"    : "2026-05-20",
         "place"   : "1-3-19"
     },
@@ -40,7 +40,7 @@
         "title"   : "Delamination",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 17.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-17.md",
         "date"    : "2026-05-15",
         "place"   : "1-3-18"
     },
@@ -49,7 +49,7 @@
         "title"   : "Undoing, Ravelling",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 16.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-16.md",
         "date"    : "2026-05-10",
         "place"   : "1-3-17"
     },
@@ -58,7 +58,7 @@
         "title"   : "Tarnished Ivory Tamed",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 15.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-15.md",
         "date"    : "2026-05-05",
         "place"   : "1-3-16"
     },
@@ -67,7 +67,7 @@
         "title"   : "Certain Uncertainty",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 14.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-14.md",
         "date"    : "2026-04-30",
         "place"   : "1-3-15"
     },
@@ -76,7 +76,7 @@
         "title"   : "Sapphire Flash, Silver Storm",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 13.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-13.md",
         "date"    : "2026-04-25",
         "place"   : "1-3-14"
     },
@@ -85,7 +85,7 @@
         "title"   : "Redefinition",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 12.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-12.md",
         "date"    : "2026-04-20",
         "place"   : "1-3-13"
     },
@@ -94,7 +94,7 @@
         "title"   : "Reconciliation",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 11.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-11.md",
         "date"    : "2026-04-15",
         "place"   : "1-3-12"
     },
@@ -103,7 +103,7 @@
         "title"   : "Reification",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 10.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-10.md",
         "date"    : "2026-04-10",
         "place"   : "1-3-11"
     },
@@ -121,7 +121,7 @@
         "title"   : "Unmaking",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 9.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-9.md",
         "date"    : "2026-03-31",
         "place"   : "1-3-9"
     },
@@ -130,7 +130,7 @@
         "title"   : "A Sapphire Prawn Mouse",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 8.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-8.md",
         "date"    : "2026-03-25",
         "place"   : "1-3-8"
     },
@@ -139,7 +139,7 @@
         "title"   : "A Frayed Knitting",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 7.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-7.md",
         "date"    : "2026-03-20",
         "place"   : "1-3-7"
     },
@@ -148,7 +148,7 @@
         "title"   : "Shearing History",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 6.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-6.md",
         "date"    : "2026-03-15",
         "place"   : "1-3-6"
     },
@@ -157,7 +157,7 @@
         "title"   : "Reforged in Steel",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 5.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-5.md",
         "date"    : "2026-03-10",
         "place"   : "1-3-5"
     },
@@ -166,7 +166,7 @@
         "title"   : "Hewn Stones and Branches",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 4.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-4.md",
         "date"    : "2026-03-05",
         "place"   : "1-3-4"
     },
@@ -175,7 +175,7 @@
         "title"   : "Brazing Geography",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 3.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-3.md",
         "date"    : "2026-02-28",
         "place"   : "1-3-3"
     },
@@ -184,7 +184,7 @@
         "title"   : "Fragile Welds",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 2.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-2.md",
         "date"    : "2026-02-25",
         "place"   : "1-3-2"
     },
@@ -193,7 +193,7 @@
         "title"   : "Genesis Unravelling",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 1.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-1.md",
         "date"    : "2026-02-20",
         "place"   : "1-3-1"
     },
@@ -202,12 +202,12 @@
         "title"   : "Wallowing in Wait",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/Chapter 0.md",
+        "content" : "narratives/of-leafs-and-thorns/the-heroine-haunted-and-holy/chapter-0.md",
         "date"    : "2026-02-15",
         "place"   : "1-3-0"
     },
     {
-        "global"  : 56,
+        "global"  : -1,
         "title"   : "cover",
         "book"    : "The Heroine, Haunted and Holy",
         "arc"     : "Of Leafs and Thorns",
@@ -220,7 +220,7 @@
         "title"   : "A Mother's Hopeful Swansong",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Epilogue.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/epilogue.md",
         "date"    : "2026-02-10",
         "place"   : "1-2-26"
     },
@@ -229,7 +229,7 @@
         "title"   : "The Opal Goddess",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 25.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-25.md",
         "date"    : "2026-02-05",
         "place"   : "1-2-25"
     },
@@ -238,7 +238,7 @@
         "title"   : "The Ivory Scion",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 24.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-24.md",
         "date"    : "2026-01-31",
         "place"   : "1-2-24"
     },
@@ -247,7 +247,7 @@
         "title"   : "Devastation",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 23.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-23.md",
         "date"    : "2026-01-25",
         "place"   : "1-2-23"
     },
@@ -256,7 +256,7 @@
         "title"   : "A Capital, A Companion",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 22.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-22.md",
         "date"    : "2026-01-20",
         "place"   : "1-2-22"
     },
@@ -265,7 +265,7 @@
         "title"   : "Undevoured, Untaken",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 21.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-21.md",
         "date"    : "2026-01-15",
         "place"   : "1-2-21"
     },
@@ -274,7 +274,7 @@
         "title"   : "Petals of Ash",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 20.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-20.md",
         "date"    : "2026-01-10",
         "place"   : "1-2-20"
     },
@@ -283,7 +283,7 @@
         "title"   : "Tarnished Spirit",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 19.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-19.md",
         "date"    : "2026-01-05",
         "place"   : "1-2-19"
     },
@@ -292,7 +292,7 @@
         "title"   : "Communal Crescents Loved",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 18.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-18.md",
         "date"    : "2025-12-31",
         "place"   : "1-2-18"
     },
@@ -301,7 +301,7 @@
         "title"   : "Leaving Lost Causes",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 17.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-17.md",
         "date"    : "2025-12-25",
         "place"   : "1-2-17"
     },
@@ -310,7 +310,7 @@
         "title"   : "The True Temple",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 16.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-16.md",
         "date"    : "2025-12-20",
         "place"   : "1-2-16"
     },
@@ -319,7 +319,7 @@
         "title"   : "Wakened, Weakened, Weary",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 15.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-15.md",
         "date"    : "2025-12-15",
         "place"   : "1-2-15"
     },
@@ -328,7 +328,7 @@
         "title"   : "Ugly Untravelled Land",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 14.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-14.md",
         "date"    : "2025-12-10",
         "place"   : "1-2-14"
     },
@@ -337,7 +337,7 @@
         "title"   : "Fierce Forceful Ascent",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 13.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-13.md",
         "date"    : "2025-12-05",
         "place"   : "1-2-13"
     },
@@ -346,7 +346,7 @@
         "title"   : "Catalysis Controlled Future",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 12.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-12.md",
         "date"    : "2025-11-30",
         "place"   : "1-2-12"
     },
@@ -355,7 +355,7 @@
         "title"   : "Shadow's Shearing Assault",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 11.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-11.md",
         "date"    : "2025-11-25",
         "place"   : "1-2-11"
     },
@@ -364,7 +364,7 @@
         "title"   : "Ashen Amber Welcome",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 10.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-10.md",
         "date"    : "2025-11-20",
         "place"   : "1-2-10"
     },
@@ -373,7 +373,7 @@
         "title"   : "Before Black Glass",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 9.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-9.md",
         "date"    : "2025-11-15",
         "place"   : "1-2-9"
     },
@@ -382,7 +382,7 @@
         "title"   : "Reprise of Rebellion",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 8.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-8.md",
         "date"    : "2025-11-10",
         "place"   : "1-2-8"
     },
@@ -391,7 +391,7 @@
         "title"   : "A Frozen Coda",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 7.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-7.md",
         "date"    : "2025-11-05",
         "place"   : "1-2-7"
     },
@@ -400,7 +400,7 @@
         "title"   : "Liberation's Steady March",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 6.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-6.md",
         "date"    : "2025-10-31",
         "place"   : "1-2-6"
     },
@@ -409,7 +409,7 @@
         "title"   : "Sepulchral Rondo",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 5.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-5.md",
         "date"    : "2025-10-25",
         "place"   : "1-2-5"
     },
@@ -418,7 +418,7 @@
         "title"   : "Isolation's Anthem",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 4.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-4.md",
         "date"    : "2025-10-20",
         "place"   : "1-2-4"
     },
@@ -427,7 +427,7 @@
         "title"   : "Refrain from Sorrow",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 3.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-3.md",
         "date"    : "2025-10-15",
         "place"   : "1-2-3"
     },
@@ -436,7 +436,7 @@
         "title"   : "A Spire's Verse",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 2.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-2.md",
         "date"    : "2025-10-10",
         "place"   : "1-2-2"
     },
@@ -445,7 +445,7 @@
         "title"   : "Prelude to Passivity",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 1.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-1.md",
         "date"    : "2025-10-05",
         "place"   : "1-2-1"
     },
@@ -454,12 +454,12 @@
         "title"   : "Three Paths Diverged",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/Chapter 0.md",
+        "content" : "narratives/of-leafs-and-thorns/the-tower-of-snow-and-wind/chapter-0.md",
         "date"    : "2025-09-30",
         "place"   : "1-2-0"
     },
     {
-        "global"  : 28,
+        "global"  : -1,
         "title"   : "cover",
         "book"    : "The Tower of Snow and Wind",
         "arc"     : "Of Leafs and Thorns",
@@ -472,7 +472,7 @@
         "title"   : "The Stablehand's Elegy",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Epilogue.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/epilogue.md",
         "date"    : "2025-09-25",
         "place"   : "1-1-26"
     },
@@ -481,7 +481,7 @@
         "title"   : "The Last Breath of Autumn",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 25.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-25.md",
         "date"    : "2025-09-20",
         "place"   : "1-1-25"
     },
@@ -490,7 +490,7 @@
         "title"   : "A Crown of Shadow",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 24.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-24.md",
         "date"    : "2025-09-15",
         "place"   : "1-1-24"
     },
@@ -499,7 +499,7 @@
         "title"   : "Sapphire and Silver",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 23.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-23.md",
         "date"    : "2025-09-10",
         "place"   : "1-1-23"
     },
@@ -508,7 +508,7 @@
         "title"   : "A Final Truth",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 22.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-22.md",
         "date"    : "2025-09-05",
         "place"   : "1-1-22"
     },
@@ -517,7 +517,7 @@
         "title"   : "Sisters of Freedom",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 21.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-21.md",
         "date"    : "2025-08-31",
         "place"   : "1-1-21"
     },
@@ -526,7 +526,7 @@
         "title"   : "A Doll of Fallen Petals",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 20.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-20.md",
         "date"    : "2025-08-25",
         "place"   : "1-1-20"
     },
@@ -535,7 +535,7 @@
         "title"   : "Bloodleaf Bargains",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 19.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-19.md",
         "date"    : "2025-08-20",
         "place"   : "1-1-19"
     },
@@ -544,7 +544,7 @@
         "title"   : "Salora's Shadow Stirs",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 18.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-18.md",
         "date"    : "2025-08-15",
         "place"   : "1-1-18"
     },
@@ -553,7 +553,7 @@
         "title"   : "The Stone's Lullaby",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 17.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-17.md",
         "date"    : "2025-08-10",
         "place"   : "1-1-17"
     },
@@ -562,7 +562,7 @@
         "title"   : "Indra's Whisper Echoed",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 16.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-16.md",
         "date"    : "2025-08-05",
         "place"   : "1-1-16"
     },
@@ -571,7 +571,7 @@
         "title"   : "The Mavi's Blade",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 15.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-15.md",
         "date"    : "2025-07-31",
         "place"   : "1-1-15"
     },
@@ -580,7 +580,7 @@
         "title"   : "Awakened, Recalled",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 14.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-14.md",
         "date"    : "2025-07-25",
         "place"   : "1-1-14"
     },
@@ -589,7 +589,7 @@
         "title"   : "Frivolities and First Dawns",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 13.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-13.md",
         "date"    : "2025-07-20",
         "place"   : "1-1-13"
     },
@@ -598,7 +598,7 @@
         "title"   : "The Strength of Leafs",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 12.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-12.md",
         "date"    : "2025-07-15",
         "place"   : "1-1-12"
     },
@@ -607,7 +607,7 @@
         "title"   : "The Colour of Thorns",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 11.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-11.md",
         "date"    : "2025-07-10",
         "place"   : "1-1-11"
     },
@@ -616,7 +616,7 @@
         "title"   : "The Hallow's Silver Curse",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 10.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-10.md",
         "date"    : "2025-07-05",
         "place"   : "1-1-10"
     },
@@ -625,7 +625,7 @@
         "title"   : "Thorns Not Leaves",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 9.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-9.md",
         "date"    : "2025-06-30",
         "place"   : "1-1-9"
     },
@@ -634,7 +634,7 @@
         "title"   : "A Warranted Escape",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 8.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-8.md",
         "date"    : "2025-06-25",
         "place"   : "1-1-8"
     },
@@ -643,7 +643,7 @@
         "title"   : "The Lady's Mystery Deepens",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 7.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-7.md",
         "date"    : "2025-06-20",
         "place"   : "1-1-7"
     },
@@ -652,7 +652,7 @@
         "title"   : "The Warrior's Past",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 6.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-6.md",
         "date"    : "2025-06-15",
         "place"   : "1-1-6"
     },
@@ -661,7 +661,7 @@
         "title"   : "A Slower Recovery",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 5.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-5.md",
         "date"    : "2025-06-10",
         "place"   : "1-1-5"
     },
@@ -670,7 +670,7 @@
         "title"   : "A Slow Awakening",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 4.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-4.md",
         "date"    : "2025-06-05",
         "place"   : "1-1-4"
     },
@@ -679,7 +679,7 @@
         "title"   : "Recovery Begins",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 3.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-3.md",
         "date"    : "2025-05-31",
         "place"   : "1-1-3"
     },
@@ -688,7 +688,7 @@
         "title"   : "Disordered and Destined",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 2.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-2.md",
         "date"    : "2025-05-25",
         "place"   : "1-1-2"
     },
@@ -697,7 +697,7 @@
         "title"   : "Roisin's Lot",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 1.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-1.md",
         "date"    : "2025-05-20",
         "place"   : "1-1-1"
     },
@@ -706,12 +706,12 @@
         "title"   : "The Many Paths",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",
-        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/Chapter 0.md",
+        "content" : "narratives/of-leafs-and-thorns/the-blue-and-silver-rose/chapter-0.md",
         "date"    : "2025-05-15",
         "place"   : "1-1-0"
     },
     {
-        "global"  : 0,
+        "global"  : -1,
         "title"   : "cover",
         "book"    : "The Blue and Silver Rose",
         "arc"     : "Of Leafs and Thorns",

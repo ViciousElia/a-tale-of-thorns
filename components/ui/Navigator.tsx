@@ -8,7 +8,7 @@ export default function Navigator() {
   const {data,loading} = usePageData()
   const validData = data as PageData[]
 
-  if (loading) return <div>Loading...</div>
+  if (loading) return <></>
 
   const [first, second, , fourth, fifth] = validData
 
