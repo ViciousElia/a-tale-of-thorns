@@ -33,4 +33,4 @@ export function PageDataProvider({ children, queryParams }: { children: React.Re
   )
 }
 
-export const useData = () => useContext(PageContext)
+export const usePageData = () => useContext(PageContext)

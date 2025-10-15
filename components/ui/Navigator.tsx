@@ -1,11 +1,11 @@
 'use client'
 
 import PageData from '@/lib/page-data'
-import { useData } from '@/contexts/PageContext'
+import { usePageData } from '@/contexts/PageContext'
 import Link from 'next/link'
 
 export default function Navigator() {
-  const {data,loading} = useData()
+  const {data,loading} = usePageData()
   const validData = data as PageData[]
 
   if (loading) return <div>Loading...</div>
