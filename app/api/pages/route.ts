@@ -6,8 +6,8 @@ import data from '@/lib/pages.json'
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
   const pageParam = searchParams.get('p')
+  const checkOnly = searchParams.get('check') === 'true'
   const pageNumber = parseInt(pageParam || '0')
-  
 
     try {
       let filteredData = data.filter(item => 
@@ -15,6 +15,24 @@ export async function GET(request: NextRequest) {
         new Date(item.date).getTime() < new Date().getTime()
       )
       filteredData.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+
+    // CHECK-ONLY MODE: Just verify page exists
+    if (checkOnly) {
+      if (!pageParam || isNaN(pageNumber)) {
+        // Return 404 status for invalid requests
+        return NextResponse.json({ exists: false }, { status: 404 })
+      }
+      
+      const pageExists = filteredData.some(item => item.global === pageNumber)
+      
+      // Return 404 if page doesn't exist, 200 if it does
+      if (!pageExists) {
+        return NextResponse.json({ exists: false }, { status: 404 })
+      }
+      
+      return NextResponse.json({ exists: true }) // This returns 200 OK
+    }
+
       switch(pageParam) {
       case null:
         // Return all data

@@ -1,10 +1,32 @@
 import Navigator from "@/components/ui/Navigator";
 import { PageDataProvider } from "@/contexts/PageContext";
 import MDXRenderer from "@/components/MDXRenderer";
+import { notFound } from 'next/navigation'
+
+async function checkPageExists(pageId: number) {
+  try {
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL
+    const response = await fetch(`${baseUrl}/api/pages?p=${pageId}&check=true`)
+    if (!response.ok) {
+      console.log('Response not OK, status:', response.status)
+      return false
+    }
+    const result = await response.json()
+    return result.exists
+  } catch (error) {
+    return false
+  }
+}
 
 export default async function Page({params}:{params:Promise<{globalIndex:number}>}) {
   const { globalIndex } = await params
   const queryParams = '?p='+globalIndex
+
+  const pageExists = await checkPageExists(globalIndex)
+  if (!pageExists) {
+    notFound() // This will show your 404 page
+  }
+
 
   return (
     <PageDataProvider queryParams={queryParams}>

@@ -11,7 +11,6 @@ export default function Footer(){
       <Tagline />
       <div className="flex flex-col md:flex-row space-x-8 space-y-4 px-16 py-2 items-center justify-between">
         <Logo headFoot={2} />
-        <>{/* Menu grouping or collapser */}</>
         <FooterPages />
       </div>
       <CopyrightNotice />
