@@ -1,5 +1,5 @@
 import { PageDataProvider } from "@/contexts/PageContext";
-import ArchiveTable from "@/components/ui/ArchiveTable";
+import ArchiveTable from "@/components/layout/ArchiveTable";
 
 export default function ArchivePage() {
   const queryParams = ''

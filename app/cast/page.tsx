@@ -1,4 +1,4 @@
-import CastTable from "@/components/ui/CastTable";
+import CastTable from "@/components/layout/CastTable";
 
 export default function Cast(){
   return (

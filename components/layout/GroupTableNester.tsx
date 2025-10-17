@@ -1,5 +1,6 @@
 import React from 'react';
-import { GroupTable } from '@/components/ui/CastTable';
+import { GroupTable } from '@/components/layout/CastTable';
+import Image from 'next/image';
 
 interface GroupTableRendererProps {
   group: GroupTable;
@@ -32,7 +33,7 @@ const GroupTableRenderer: React.FC<GroupTableRendererProps> = ({ group }) => {
           <td>
             {item.image ? (
               typeof item.image === 'string' ? (
-                <img src={item.image} alt={item.name} className="w-8 h-8 rounded" />
+                <Image src={item.image} alt={item.name} className="w-8 h-8 rounded" />
               ) : (
                 item.image
               )

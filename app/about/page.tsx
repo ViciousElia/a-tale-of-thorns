@@ -40,14 +40,14 @@ export default function About(){
 
       <p>
         These names are part of a personal history. For permissions or collaboration,
-        please use the site's contact page.
+        please use the site&apos;s contact page.
       </p>
     </section>
 
     <section aria-labelledby="ownership">
       <h2 id="ownership">Content & permissions</h2>
       <p>
-        The chapters and assets on this site are the author's work and are protected by
+        The chapters and assets on this site are the author&apos;s work and are protected by
         copyright unless a specific license is stated for a file. To request reuse or
         adaptation, please get in touch with details about the intended use.
       </p>
