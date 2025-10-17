@@ -116,3 +116,36 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+table {
+  width: 100%;
+  border: 1 grey solid;
+  margin-bottom: 2rem;
+}
+table table:last-child{
+  margin-bottom: 0;
+}
+thead{
+  border: 1 grey solid;
+}
+th{
+  text-align: left;
+  padding: 0.5rem;
+}
+td{
+  padding: 0.5rem;
+  text-align: justify;
+}
+table caption{
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 0.25em;
+}
+table table caption{
+  font-size: larger;
+  font-weight: bold;
+}
+details table{
+  width: 90%;
+  margin: 1rem auto;
+}

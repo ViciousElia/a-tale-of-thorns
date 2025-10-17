@@ -22,7 +22,7 @@ export default function ArchiveTable() {
             {Object.entries(books).map(([bookName, pages]) => (
               <details key={bookName} open className="mt-4">
                 <summary className="cursor-pointer text-2xl">{bookName}</summary>
-                <table className="ml-4 mt-4 w-[90%]">
+                <table>
                   <thead>
                     <tr className="border-b-1 border-mid">
                       <th className="text-left">Page Number</th>

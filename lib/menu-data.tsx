@@ -3,13 +3,13 @@ import Image from 'next/image';
 
 export function menuData() : NamedPage[] {
   return [
-    {name:'Archive',   href:'archive',    icon:''},
-    {name:'About',     href:'about',      icon:''},
-    {name:'Cast',      href:'cast',       icon:''},
-    {name:'References',href:'references', icon:'',lock: 0},
-    {name:'Contact',   href:'contact',    icon:''},
-    {name:'Home',      href:'',           icon:'',lock: 2},
-    {name:'Sitemap',   href:'sitemap.xml',icon:'',lock: 2},
+    {name:'Archive',   href:'/archive',    icon:''},
+    {name:'About',     href:'/about',      icon:''},
+    {name:'Cast',      href:'/cast',       icon:''},
+    {name:'References',href:'/references', icon:'',lock: 0},
+    {name:'Contact',   href:'/contact',    icon:''},
+    {name:'Home',      href:'/',           icon:'',lock: 2},
+    {name:'Sitemap',   href:'/sitemap.xml',icon:'',lock: 2},
   ];
 }
 

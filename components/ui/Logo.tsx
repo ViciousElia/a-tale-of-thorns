@@ -11,4 +11,4 @@ export default function Logo(props: { headFoot: number }) {
     <div className="relative h-[3rem] w-[10%]">{logoOut}</div>
   )
 }
-/* @TODO: sort a way to do images using the fixed height approach without the linter yelling at me and without all the extra fluff.  */
+/* TODO: sort a way to do images using the fixed height approach without the linter yelling at me and without all the extra fluff.  */
