@@ -1,6 +1,6 @@
 // app/api/pages/route.ts
 import { NextRequest, NextResponse } from 'next/server'
-import mysql from 'mysql2/promise'
+// import mysql from 'mysql2/promise'
 import data from '@/lib/pages.json'
 
 export async function GET(request: NextRequest) {
@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
   const pageNumber = parseInt(pageParam || '0')
 
     try {
-      let filteredData = data.filter(item => 
+      const filteredData = data.filter(item => 
         item.global >= 0 &&
         new Date(item.date).getTime() < new Date().getTime()
       )
@@ -39,7 +39,7 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(filteredData)
       case 'last':
         // Return newest page, previous page, and first page
-        let retVal = [filteredData[filteredData.length - 1],filteredData[1],filteredData[0],null,null]
+        const retVal = [filteredData[filteredData.length - 1],filteredData[1],filteredData[0],null,null]
         return NextResponse.json(retVal)
       default:
         // Handle valid page numbers and return oldest, previous, current, next, last (or null as needed)
@@ -62,29 +62,30 @@ export async function GET(request: NextRequest) {
       }
 
     } catch(error) {
+      console.log(error)
       return NextResponse.json({ error: 'Failed to load data' }, { status: 500 })
     }
-  try {
+  // try {
 
-    const { searchParams } = new URL(request.url)
+  //   const { searchParams } = new URL(request.url)
     
-    // @IMPLEMENTATION_NOTE: Replace with your database connection
-    // Using environment variables for security
-    const connection = await mysql.createConnection({
-      host: process.env.DB_HOST,
-      database: process.env.DB_NAME,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-    })
+  //   // @IMPLEMENTATION_NOTE: Replace with your database connection
+  //   // Using environment variables for security
+  //   const connection = await mysql.createConnection({
+  //     host: process.env.DB_HOST,
+  //     database: process.env.DB_NAME,
+  //     user: process.env.DB_USER,
+  //     password: process.env.DB_PASSWORD,
+  //   })
 
-    let query = 'SELECT * FROM page_data WHERE global_id >= 0 AND date < CURDATE()'
-    query += ' ORDER BY date DESC'
+  //   let query = 'SELECT * FROM page_data WHERE global_id >= 0 AND date < CURDATE()'
+  //   query += ' ORDER BY date DESC'
 
-    const [rows] = await connection.execute(query, [])
-    await connection.end()
+  //   const [rows] = await connection.execute(query, [])
+  //   await connection.end()
 
-    return NextResponse.json(rows)
-  } catch (error) {
-    return NextResponse.json({ error: 'Connection failed' }, { status: 500 })
-  }
+  //   return NextResponse.json(rows)
+  // } catch (error) {
+  //   return NextResponse.json({ error: 'Connection failed' }, { status: 500 })
+  // }
 }

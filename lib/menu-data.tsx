@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import Image from 'next/image';
 
 export function menuData() : NamedPage[] {
   return [
@@ -14,7 +15,7 @@ export function menuData() : NamedPage[] {
 
 export function externals() : NamedPage[]{
   return [
-    {name:'Birbles Art', href:'https://birbles.com/', icon:<img src="/vectors/birbles.svg" alt="Birbles Art" className="w-5 h-5" />, lock: 2, external: true},
+    {name:'Birbles Art', href:'https://birbles.com/', icon:<div className="relative w-5 h-5"><Image src="/vectors/birbles.svg" alt="Birbles Art" className="object-cover" fill/></div>, lock: 2, external: true},
     {name:'XKCD', href:'https://xkcd.com/', icon:'',lock: 2, external: true},
     {name:'Questionable Content', href:'https://questionablecontent.net/', icon:'',lock: 2, external: true},
   ];
@@ -22,8 +23,8 @@ export function externals() : NamedPage[]{
 
 export function personals() : NamedPage[]{
   return [
-    {name:'Fruit Folio', href:'https://fruitfolio.com/', icon:<img src="/vectors/Folio.svg" alt="Fruit Folio" className="w-5 h-5" />,lock: 2,external: true},
-    {name:'Forays (under construction)', href:'https://forays.fruitfolio.com/', icon:<img src="/vectors/Forays.svg" alt="Forays" className="w-5 h-5" />,lock: 2, external: true},
+    {name:'Fruit Folio', href:'https://fruitfolio.com/', icon:<div className="relative w-5 h-5"><Image src="/vectors/Folio.svg" alt="Fruit Folio" className="object-cover" fill/></div>,lock: 2,external: true},
+    {name:'Forays (under construction)', href:'https://forays.fruitfolio.com/', icon:<div className="relative w-5 h-5"><Image src="/vectors/Forays.svg" alt="Forays" className="object-cover" fill/></div>,lock: 2, external: true},
   ];
 }
 
@@ -65,7 +66,6 @@ export interface NamedPage {
   desktopOnly?: boolean            // Hide on mobile
   
   // Future-proofing
-  metadata?: Record<string, any>   // Catch-all for custom data
   children?: NamedPage[]           // For dropdown menus
 
 }

@@ -14,6 +14,7 @@ async function checkPageExists(pageId: number) {
     const result = await response.json()
     return result.exists
   } catch (error) {
+    console.log(error)
     return false
   }
 }

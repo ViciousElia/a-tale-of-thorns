@@ -2,14 +2,10 @@
 
 import PageData from '@/lib/page-data'
 import { usePageData } from '@/contexts/PageContext'
-import { useState } from 'react'
 import MDXBuilder from '@/components/MDXBuilder'
 
 export default function MDXRenderer() {
   const {data,loading} = usePageData()
-  const [Intro, setIntro] = useState<React.ComponentType | null>(null)
-  const [Content, setContent] = useState<React.ComponentType | null>(null)
-  const [Outro, setOutro] = useState<React.ComponentType | null>(null)
   const validData = data as PageData[]
 
   if (!data || loading) return <></>

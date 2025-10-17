@@ -2,9 +2,10 @@
 'use client'
 import { createContext, useContext, useEffect, useState } from 'react'
 import { restructPageContent } from '@/utils/restructPageContent'
+import PageData from '@/lib/page-data'
 
 interface DataContextType {
-  data: any[] | null
+  data: PageData[] | null
   loading: boolean
   error: string | null
 }
@@ -16,7 +17,7 @@ const PageContext = createContext<DataContextType>({
 })
 
 export function PageDataProvider({ children, queryParams }: { children: React.ReactNode; queryParams?: string }) {
-  const [data, setData] = useState<any[] | null>(null)
+  const [data, setData] = useState<PageData[] | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 

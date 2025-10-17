@@ -57,6 +57,21 @@ interface AuthorStructure {
   name: string
   url?: string
 }
+interface Frontmatter{
+  title: string
+  chapter_number: number
+  book: string
+  arc: string
+  published: Date
+  status: string
+  global_part: number
+  description: string
+  summary: string
+  ogTitle?: string
+  ogDescription?: string
+  word_count: number
+}
+
 
 export async function restructPageContent(pageData: PageData): Promise<ProcessedContent> {
 
@@ -77,10 +92,11 @@ export async function restructPageContent(pageData: PageData): Promise<Processed
   const [, frontmatterYaml, mainmatter] = frontmatterMatch
 
   // Read frontmatter as YAML into object
-  let frontmatter: any
+  let frontmatter: Frontmatter
   try {
     frontmatter = yaml.parse(frontmatterYaml)
   } catch (error) {
+    console.log(error)
     throw new Error('Failed to parse frontmatter YAML')
   }
 
@@ -115,22 +131,21 @@ function generateOutro(pageData:PageData): string {
   return retVal
 }
 
-function generateMeta(frontmatter: any): Metadata {
-  let retVal: Metadata = {
-    title: frontmatter.title,
+function generateMeta(frontmatter: Frontmatter): Metadata {
+  const retVal: Metadata = {
+    title: frontmatter.title ,
     description: frontmatter.description,
     openGraph: {
       title: frontmatter.ogTitle || frontmatter.title,
       description: frontmatter.ogDescription || frontmatter.summary,
-      images: frontmatter.ogImage ? [frontmatter.ogImage] : [],
     },
   }
   return retVal
 }
 
-function generateStructure(frontmatter: any,pageData:PageData): ChapterStructure {
+function generateStructure(frontmatter: Frontmatter,pageData:PageData): ChapterStructure {
   const [arc, book, chapter] = pageData.place.split('-').map(str => parseInt(str, 10))
-  let retVal: ChapterStructure = {
+  const retVal: ChapterStructure = {
     '@context': 'https://schema.org',
     '@type': 'Chapter',
     author: {

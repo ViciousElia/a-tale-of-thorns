@@ -1,4 +1,3 @@
-import Navigator from "@/components/ui/Navigator";
 import { PageDataProvider } from "@/contexts/PageContext";
 import ArchiveTable from "@/components/ui/ArchiveTable";
 

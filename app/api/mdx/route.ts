@@ -10,6 +10,7 @@ export async function POST(request: Request) {
       frontmatter: result.frontmatter 
     })
   } catch (error) {
+    console.log(error)
     return Response.json({ error: 'Failed to compile MDX' }, { status: 500 })
   }
 }
