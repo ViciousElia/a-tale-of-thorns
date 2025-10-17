@@ -1,4 +1,4 @@
-export default function CopyrightNotice(){
+export default function CopyrightNotice() {
     return (
         <div className="copy-note w-full text-xs text-center bg-primary text-light p-1">
             <p>Coded with resignation in NextJS and SQL from a small office in Colorado.</p>

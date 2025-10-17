@@ -5,7 +5,7 @@ import { usePageData } from '@/contexts/PageContext'
 import Link from 'next/link'
 
 export default function Navigator() {
-  const {data,loading} = usePageData()
+  const { data, loading } = usePageData()
   const validData = data as PageData[]
 
   if (loading) return <></>

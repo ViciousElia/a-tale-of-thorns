@@ -10,7 +10,7 @@ export default function ContactForm() {
 
   async function handleSubmit(formData: FormData) {
     setIsLoading(true)
-    
+
     const response = await fetch('/api/contact', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -25,7 +25,7 @@ export default function ContactForm() {
     if (response.ok) {
       router.refresh() // Reloads the page fresh
     }
-    
+
     setIsLoading(false)
   }
 

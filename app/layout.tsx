@@ -17,14 +17,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" type="image/svg+xml" href="/vectors/rose2.svg"/>
+        <link rel="icon" type="image/svg+xml" href="/vectors/rose2.svg" />
       </head>
       <body className={`antialiased min-h-screen flex flex-col bg-mid-900 dark:bg-mid-100 text-dark dark:text-light`}>
         <ThemeProvider attribute="data-theme">
           <Header />
           <main className="flex-grow flex flex-col">
-            {children}    
-          </main>            
+            {children}
+          </main>
           <Footer />
         </ThemeProvider>
       </body>

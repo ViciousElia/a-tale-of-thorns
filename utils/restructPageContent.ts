@@ -57,7 +57,7 @@ interface AuthorStructure {
   name: string
   url?: string
 }
-interface Frontmatter{
+interface Frontmatter {
   title: string
   chapter_number: number
   book: string
@@ -104,7 +104,7 @@ export async function restructPageContent(pageData: PageData): Promise<Processed
   const intro = generateIntro(pageData)
   const outro = generateOutro(pageData)
   const meta = generateMeta(frontmatter)
-  const structure = generateStructure(frontmatter,pageData)
+  const structure = generateStructure(frontmatter, pageData)
 
   return {
     intro,
@@ -115,25 +115,25 @@ export async function restructPageContent(pageData: PageData): Promise<Processed
   }
 }
 
-function generateIntro(pageData:PageData): string {
+function generateIntro(pageData: PageData): string {
   let retVal: string
-  retVal = pageData.arc?'### '+pageData.arc:''
-  retVal += pageData.book?'\n### '+pageData.book:''
-  retVal += pageData.place?'\n#### '+pageData.place:''
+  retVal = pageData.arc ? '### ' + pageData.arc : ''
+  retVal += pageData.book ? '\n### ' + pageData.book : ''
+  retVal += pageData.place ? '\n#### ' + pageData.place : ''
   return retVal
 }
 
-function generateOutro(pageData:PageData): string {
+function generateOutro(pageData: PageData): string {
   let retVal: string
-  retVal = 'Date: '+(pageData.date?pageData.date:'')+'\n\n'
-  retVal += 'Place: '+(pageData.place?pageData.place:'')+'\n\n'
-  retVal += 'Permalink: '+(pageData.global?'[https://rose.fruitfolio.com/p/'+pageData.global+'](/p/'+pageData.global+')':'')
+  retVal = 'Date: ' + (pageData.date ? pageData.date : '') + '\n\n'
+  retVal += 'Place: ' + (pageData.place ? pageData.place : '') + '\n\n'
+  retVal += 'Permalink: ' + (pageData.global ? '[https://rose.fruitfolio.com/p/' + pageData.global + '](/p/' + pageData.global + ')' : '')
   return retVal
 }
 
 function generateMeta(frontmatter: Frontmatter): Metadata {
   const retVal: Metadata = {
-    title: frontmatter.title ,
+    title: frontmatter.title,
     description: frontmatter.description,
     openGraph: {
       title: frontmatter.ogTitle || frontmatter.title,
@@ -143,7 +143,7 @@ function generateMeta(frontmatter: Frontmatter): Metadata {
   return retVal
 }
 
-function generateStructure(frontmatter: Frontmatter,pageData:PageData): ChapterStructure {
+function generateStructure(frontmatter: Frontmatter, pageData: PageData): ChapterStructure {
   const [arc, book, chapter] = pageData.place.split('-').map(str => parseInt(str, 10))
   const retVal: ChapterStructure = {
     '@context': 'https://schema.org',
@@ -174,6 +174,6 @@ function generateStructure(frontmatter: Frontmatter,pageData:PageData): ChapterS
     wordCount: frontmatter.word_count,
     datePublished: pageData.date,
   }
-    
+
   return retVal
 }

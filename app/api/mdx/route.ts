@@ -5,9 +5,9 @@ export async function POST(request: Request) {
   try {
     const { source } = await request.json()
     const result = await getMdxContent(source)
-    return Response.json({ 
+    return Response.json({
       code: result.code,
-      frontmatter: result.frontmatter 
+      frontmatter: result.frontmatter
     })
   } catch (error) {
     console.log(error)

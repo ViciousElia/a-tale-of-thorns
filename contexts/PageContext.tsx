@@ -26,19 +26,19 @@ export function PageDataProvider({ children, queryParams }: { children: React.Re
       try {
         setLoading(true)
         setError(null)
-        
+
         const response = await fetch(`/api/pages${queryParams || ''}`)
-        
+
         if (!response.ok) {
           throw new Error(`Failed to fetch: ${response.status}`)
         }
-        
+
         const result = await response.json()
-        
+
         // Validate data structure and process
         if (result && Array.isArray(result) && result.length >= 3 && result[2]) {
           const processedData = [...result]
-          
+
           // Apply your utility function to data[2]
           try {
             const restructuredContent = await restructPageContent(processedData[2])
@@ -50,7 +50,7 @@ export function PageDataProvider({ children, queryParams }: { children: React.Re
             console.warn('Failed to process page content:', processError)
             // Keep original data[2] if processing fails
           }
-          
+
           setData(processedData)
         } else {
           console.warn('Unexpected data structure from API:', result)
@@ -63,7 +63,7 @@ export function PageDataProvider({ children, queryParams }: { children: React.Re
         setLoading(false)
       }
     }
-    
+
     processPageData()
   }, [queryParams])
 

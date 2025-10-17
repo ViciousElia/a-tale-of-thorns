@@ -19,9 +19,9 @@ async function checkPageExists(pageId: number) {
   }
 }
 
-export default async function Page({params}:{params:Promise<{globalIndex:number}>}) {
+export default async function Page({ params }: { params: Promise<{ globalIndex: number }> }) {
   const { globalIndex } = await params
-  const queryParams = '?p='+globalIndex
+  const queryParams = '?p=' + globalIndex
 
   const pageExists = await checkPageExists(globalIndex)
   if (!pageExists) {
@@ -39,3 +39,4 @@ export default async function Page({params}:{params:Promise<{globalIndex:number}
     </PageDataProvider>
   );
 }
+/* TODO: Add appropriate metadata (exists in page context) and structured data */

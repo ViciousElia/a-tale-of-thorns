@@ -8,38 +8,50 @@
 
   /* Define color variables */
   --color-primary: #5a0032;
-  --color-primary-50: #120009;        /* Darkest, high saturation */
+  --color-primary-50: #120009;
+  /* Darkest, high saturation */
   --color-primary-100: #240011;
   --color-primary-200: #36001a;
   --color-primary-300: #480023;
   --color-primary-400: #52002c;
-  --color-primary-500: #5a0032;        /* Your exact primary */
-  --color-primary-600: #7a1a4d;        /* Slightly less saturated */
+  --color-primary-500: #5a0032;
+  /* Your exact primary */
+  --color-primary-600: #7a1a4d;
+  /* Slightly less saturated */
   --color-primary-700: #9b4568;
   --color-primary-800: #bb7183;
-  --color-primary-900: #dc9c9e;        /* Much less saturated */
-  --color-primary-950: #fdf6f9;        /* Nearly desaturated */
-  
+  --color-primary-900: #dc9c9e;
+  /* Much less saturated */
+  --color-primary-950: #fdf6f9;
+  /* Nearly desaturated */
+
   --color-secondary: #00b464;
-  --color-secondary-50: #002411;        /* Darkest, high saturation */
+  --color-secondary-50: #002411;
+  /* Darkest, high saturation */
   --color-secondary-100: #004822;
   --color-secondary-200: #006d33;
   --color-secondary-300: #009144;
   --color-secondary-400: #00a654;
-  --color-secondary-500: #00b464;        /* Your exact secondary */
-  --color-secondary-600: #1ac274;        /* Slightly less saturated */
+  --color-secondary-500: #00b464;
+  /* Your exact secondary */
+  --color-secondary-600: #1ac274;
+  /* Slightly less saturated */
   --color-secondary-700: #45d085;
   --color-secondary-800: #71de96;
-  --color-secondary-900: #9ceca7;        /* Much less saturated */
-  --color-secondary-950: #f6fdf9;        /* Nearly desaturated */
-  
-  --color-accent: #0047ab;        /* Rich cobalt blue */
+  --color-secondary-900: #9ceca7;
+  /* Much less saturated */
+  --color-secondary-950: #f6fdf9;
+  /* Nearly desaturated */
+
+  --color-accent: #0047ab;
+  /* Rich cobalt blue */
   --color-accent-50: #000e2a;
   --color-accent-100: #001c55;
   --color-accent-200: #002a80;
   --color-accent-300: #0038aa;
   --color-accent-400: #0040bd;
-  --color-accent-500: #0047ab;    /* Your exact accent */
+  --color-accent-500: #0047ab;
+  /* Your exact accent */
   --color-accent-600: #1a5cb3;
   --color-accent-700: #4572bc;
   --color-accent-800: #7188c5;
@@ -49,22 +61,26 @@
   --color-dark: #222;
   --color-light: #ddd;
 
-  --color-mid: #7f7f7f;           /* Middle gray */
-  --color-mid-50: #080808;        /* Nearly black */
+  --color-mid: #7f7f7f;
+  /* Middle gray */
+  --color-mid-50: #080808;
+  /* Nearly black */
   --color-mid-100: #111;
   --color-mid-200: #222;
-  --color-mid-300: #444;       /* Dark, but not as dark as your --color-dark */
+  --color-mid-300: #444;
+  /* Dark, but not as dark as your --color-dark */
   --color-mid-400: #666;
   --color-mid-500: #7f7f7f;
   --color-mid-600: #999;
-  --color-mid-700: #bbb;       /* Light, matching intensity of your --color-light */
+  --color-mid-700: #bbb;
+  /* Light, matching intensity of your --color-light */
   --color-mid-800: #ddd;
   --color-mid-900: #eee;
-  --color-mid-950: #f8f8f8;       /* Nearly white */
+  --color-mid-950: #f8f8f8;
+  /* Nearly white */
 }
 
-@media (prefers-color-scheme: dark) {
-}
+@media (prefers-color-scheme: dark) {}
 
 body {
   font-family: serif;
@@ -76,43 +92,52 @@ h1 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
+
 h2 {
   font-size: x-large;
   font-weight: 600;
   margin-top: 0.25rem;
   margin-bottom: 0.75rem;
 }
+
 h3 {
   font-size: x-large;
   margin-bottom: 0.5rem;
 }
+
 h4 {
   font-size: large;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
+
 h5 {
   font-size: large;
   margin-bottom: 0.5rem;
 }
+
 h6 {
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
+
 .content p {
   text-align: justify;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+
 .outro a {
   color: var(--color-secondary);
   transition-property: color;
   transition-duration: 300ms;
 }
+
 .outro a:hover {
   color: var(--color-accent-600);
 }
-.copy-note p{
+
+.copy-note p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -122,30 +147,37 @@ table {
   border: 1 grey solid;
   margin-bottom: 2rem;
 }
-table table:last-child{
+
+table table:last-child {
   margin-bottom: 0;
 }
-thead{
+
+thead {
   border: 1 grey solid;
 }
-th{
+
+th {
   text-align: left;
   padding: 0.5rem;
 }
-td{
+
+td {
   padding: 0.5rem;
   text-align: justify;
 }
-table caption{
+
+table caption {
   font-size: x-large;
   font-weight: bolder;
   padding: 0.25em;
 }
-table table caption{
+
+table table caption {
   font-size: larger;
   font-weight: bold;
 }
-details table{
+
+details table {
   width: 90%;
   margin: 1rem auto;
 }

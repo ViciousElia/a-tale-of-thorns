@@ -9,7 +9,7 @@ interface Props {
 
 export default function MDXBuilder({ markdown }: Props) {
   const [compiledCode, setCompiledCode] = useState<string>('')
-  
+
   useEffect(() => {
     const compile = async () => {
       const response = await fetch('/api/mdx', {
@@ -20,7 +20,7 @@ export default function MDXBuilder({ markdown }: Props) {
       const { code } = await response.json()
       setCompiledCode(code)
     }
-    
+
     if (markdown) compile()
   }, [markdown])
 
@@ -28,6 +28,6 @@ export default function MDXBuilder({ markdown }: Props) {
     if (!compiledCode) return () => null
     return getMDXComponent(compiledCode)
   }, [compiledCode])
-  
+
   return <Component />
 }

@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 // Local imports
 import { menuData as getMenuData } from '@/lib/menu-data'
 
-export default function MenuPages( props: {headFoot : number} ){
+export default function MenuPages(props: { headFoot: number }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
@@ -53,7 +53,7 @@ export default function MenuPages( props: {headFoot : number} ){
         <ul className="flex flex-col md:flex-row gap-4 p-4 md:p-0 w-full">
           {menuData.filter(item => (item.lock ?? 1) & headFoot).map((item) => {
             const isActive = pathname === item.href;
-            
+
             return (
               <li key={item.href} className="flex-1">
                 <Link
@@ -65,8 +65,8 @@ export default function MenuPages( props: {headFoot : number} ){
                     transition-colors 
                     hover:bg-primary-800
                     hover:text-mid-100
-                    ${isActive 
-                      ? 'text-secondary-500 bg-primary-50 font-semibold' 
+                    ${isActive
+                      ? 'text-secondary-500 bg-primary-50 font-semibold'
                       : ''
                     }
                   `}
@@ -88,7 +88,7 @@ export default function MenuPages( props: {headFoot : number} ){
 
       {/* Overlay for mobile */}
       {isMobileMenuOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-opacity-50 z-40 md:hidden"
           onClick={() => setIsMobileMenuOpen(false)}
           aria-hidden="true"

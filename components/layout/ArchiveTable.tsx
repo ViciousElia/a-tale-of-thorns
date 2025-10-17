@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { transformPageData } from '@/utils/transformPageData'
 
 export default function ArchiveTable() {
-  const {data,loading} = usePageData()
+  const { data, loading } = usePageData()
   const validData = data as PageData[]
 
   if (loading) return <div>Loading...</div>

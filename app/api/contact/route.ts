@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
 
     // @IMPLEMENTATION_NOTE: Replace with your actual email service
     console.log('Sending email:', { name, email, subject, body })
-    
+
     // Simulate email sending
     await new Promise(resolve => setTimeout(resolve, 1000))
 

@@ -13,6 +13,6 @@ export function transformPageData(pages: PageData[]) {
     }
     structure[page.arc][page.book].push(page)
   })
-  
+
   return structure
 }

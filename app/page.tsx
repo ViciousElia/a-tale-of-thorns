@@ -15,3 +15,4 @@ export default function Home() {
     </PageDataProvider>
   );
 }
+/* TODO: Add appropriate metadata (exists in page context) and structured data */
