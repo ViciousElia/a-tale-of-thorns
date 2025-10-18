@@ -1,3 +1,5 @@
+import { ChapterStructure } from "@/utils/restructPageContent"
+
 export default interface PageData {
   global: number
   title: string
@@ -10,7 +12,15 @@ export default interface PageData {
     intro: string
     content: string
     outro: string
-    meta: string
-    structured: string
+    meta: {
+      title: string
+      description: string
+      openGraph: {
+        title: string
+        description: string
+        image?: string
+      }
+    }
+    structured: ChapterStructure
   }
 }

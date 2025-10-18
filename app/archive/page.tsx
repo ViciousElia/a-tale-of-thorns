@@ -1,5 +1,21 @@
+import { Metadata } from "next";
 import { PageDataProvider } from "@/contexts/PageContext";
 import ArchiveTable from "@/components/layout/ArchiveTable";
+
+export const metadata: Metadata = {
+  title: 'Archive',
+  description: 'A collection of the old pages from A Tale of Thorns.',
+  alternates: {
+    canonical: 'https://rose.fruitfolio.com/archive',
+  },
+  openGraph: {
+    title: 'Archive',
+    description: 'A collection of the old pages from A Tale of Thorns.',
+    url: 'https://rose.fruitfolio.com/archive',
+    siteName: 'A Tale of Thorns',
+    images: [{ url: 'https://rose.fruitfolio.com/vectors/Rose.svg' }]
+  },
+};
 
 export default function ArchivePage() {
   const queryParams = ''
@@ -19,4 +35,3 @@ export default function ArchivePage() {
     </PageDataProvider>
   );
 }
-/* TODO: Add appropriate metadata (exists in page context) and structured data */

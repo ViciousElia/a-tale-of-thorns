@@ -1,4 +1,19 @@
+import { Metadata } from "next";
 import ContactForm from "@/components/ui/ContactForm";
+
+export const metadata: Metadata = {
+  title: 'Contact Me',
+  description: "The contact submission form. Please don't.",
+  alternates: {
+    canonical: 'https://rose.fruitfolio.com/contact',
+  },
+  openGraph: {
+    title: 'Contact Me',
+    description: "The contact submission form. Please don't.",
+    url: 'https://rose.fruitfolio.com/contact',
+    siteName: 'A Tale of Thorns',
+  },
+};
 
 export default function ContactPage() {
   return (
@@ -13,4 +28,3 @@ export default function ContactPage() {
     </div>
   )
 }
-/* TODO: Add appropriate metadata (exists in page context) and structured data */

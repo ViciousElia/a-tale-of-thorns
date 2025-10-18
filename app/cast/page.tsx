@@ -1,4 +1,19 @@
+import { Metadata } from "next";
 import CastTable from "@/components/layout/CastTable";
+
+export const metadata: Metadata = {
+  title: 'Cast',
+  description: 'The cast of characters of A Tale of Thorns.',
+  alternates: {
+    canonical: 'https://rose.fruitfolio.com/cast',
+  },
+  openGraph: {
+    title: 'Cast',
+    description: 'The cast of characters of A Tale of Thorns.',
+    url: 'https://rose.fruitfolio.com/cast',
+    siteName: 'A Tale of Thorns',
+  },
+};
 
 export default function Cast() {
   return (
@@ -9,4 +24,3 @@ export default function Cast() {
     </div>
   )
 }
-/* TODO: Add appropriate metadata (exists in page context) and structured data */

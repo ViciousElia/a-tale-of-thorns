@@ -1,3 +1,19 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'About',
+  description: 'Get to know me, the author, and a bit about the story.',
+  alternates: {
+    canonical: 'https://rose.fruitfolio.com/archive',
+  },
+  openGraph: {
+    title: 'Archive',
+    description: 'Get to know me, the author, and a bit about the story.',
+    url: 'https://rose.fruitfolio.com/about',
+    siteName: 'A Tale of Thorns',
+  },
+};
+
 export default function About() {
   return (
     <div className="w-full md:w-4/5 transition-all duration-500 mx-auto px-4 flex flex-col bg-mid-800 dark:bg-mid-200 min-h-full border-l-3 border-l-primary border-r-3 border-r-primary-100 flex-grow">
@@ -68,4 +84,3 @@ export default function About() {
     </div>
   )
 }
-/* TODO: Add appropriate metadata (exists in page context) and structured data */
